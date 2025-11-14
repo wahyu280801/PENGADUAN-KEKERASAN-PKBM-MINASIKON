@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapor Perundungan - PKBM Minasikon</title>
+    <!-- Memuat Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Memuat font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0; /* Menghilangkan margin default */
+            padding: 0; /* Menghilangkan padding default */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center">
+
+    <!-- Kontainer Utama Poster -->
+    <main class="w-full max-w-4xl bg-gradient-to-br from-blue-950 to-gray-800 rounded-2xl shadow-2xl overflow-hidden border-2 border-yellow-400/50">
+        
+        <!-- Header: Logo dan Judul Utama -->
+        <header class="p-8 md:p-10 bg-black/20 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8">
+            <div class="flex-shrink-0">
+                <!-- 
+                  !!!! PENTING !!!!
+                  GANTI URL DI BAWAH INI DENGAN TAUTAN PUBLIK KE LOGO ANDA 
+                -->
+                <img src="GANTI_DENGAN_TAUTAN_PUBLIK_LOGO_ANDA.jpg" alt="Logo PKBM Minasikon" 
+                     class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-yellow-400 shadow-lg"
+                     onerror="this.src='https://placehold.co/160x160/003366/FFFF00?text=Logo+PKBM'; this.onerror=null;">
+            </div>
+            <div class="text-center md:text-left">
+                <p class="text-2xl md:text-3xl font-semibold text-gray-200 tracking-wide">ANDA MELIHAT? ANDA MENGALAMI?</p>
+                <!-- Judul utama yang menonjol -->
+                <h1 class="text-6xl md:text-8xl font-black text-yellow-400 drop-shadow-lg mt-1">JANGAN DIAM!</h1>
+                <h2 class="text-5xl md:text-7xl font-extrabold text-red-500 drop-shadow-md mt-2">LAPORKAN!</h2>
+            </div>
+        </header>
+
+        <!-- Sub-Judul / Tujuan -->
+        <section class="p-6 bg-blue-900/40 text-center">
+            <p class="text-xl md:text-2xl font-light leading-relaxed">
+                Lingkungan PKBM "MINASIKON" harus aman bagi semua.
+            </p>
+            <p class="text-lg text-gray-300 mt-2">Jika Anda mengalami atau menyaksikan:</p>
+            <!-- Label Tipe Kekerasan -->
+            <div class="flex flex-wrap justify-center gap-3 mt-4">
+                <span class="bg-red-600 text-white text-lg font-bold px-5 py-2 rounded-full shadow-md">PERUNDUNGAN</span>
+                <span class="bg-red-600 text-white text-lg font-bold px-5 py-2 rounded-full shadow-md">PELECEHAN</span>
+                <span class="bg-red-600 text-white text-lg font-bold px-5 py-2 rounded-full shadow-md">KEKERASAN</span>
+            </div>
+        </section>
+
+        <!-- Langkah-Langkah Pelaporan (Grid) -->
+        <section class="p-8 md:p-10 grid md:grid-cols-3 gap-6">
+            
+            <!-- Langkah 1: Lapor Segera -->
+            <div class="bg-gray-800/60 p-6 rounded-xl shadow-lg border border-gray-700">
+                <div class="flex items-center gap-3">
+                    <span class="text-5xl font-black text-yellow-400">1</span>
+                    <h3 class="text-2xl font-bold text-yellow-400">LAPOR SEGERA</h3>
+                </div>
+                <p class="mt-4 text-gray-200">Laporkan kejadian kepada orang yang Anda percaya:</p>
+                <ul class="mt-4 space-y-2 list-disc list-inside text-lg text-white">
+                    <li>Pendidik / Tutor Favorit</li>
+                    <li>Staf Tata Usaha</li>
+                    <li>Kepala PKBM</li>
+                </ul>
+            </div>
+
+            <!-- Langkah 2: Hubungi Tim PPKSP -->
+            <div class="bg-red-900/30 p-6 rounded-xl shadow-lg border border-red-700 md:col-span-2">
+                <div class="flex items-center gap-3">
+                    <span class="text-5xl font-black text-red-400">2</span>
+                    <h3 class="text-2xl font-bold text-red-400">HUBUNGI TIM PPKSP</h3>
+                </div>
+                <p class="mt-4 text-gray-200">Anda bisa melapor langsung (dijamin rahasia) kepada:</p>
+                <!-- Kontak -->
+                <div class="mt-4 grid sm:grid-cols-2 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <p class="text-lg font-bold text-white">Elyakin Sambekene</p>
+                        <p class="text-xl font-semibold text-yellow-400">
+                            <!-- Tautan WhatsApp Ditambahkan -->
+                            <a href="https://wa.me/6285245039200" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center justify-center sm:justify-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                                0852-4503-9200
+                            </a>
+                        </p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg">
+                        <p class="text-lg font-bold text-white">Wardin Mangatas</p>
+                        <p class="text-xl font-semibold text-yellow-400">
+                            <!-- Tautan WhatsApp Ditambahkan -->
+                            <a href="https://wa.me/6282291203596" target="_blank" rel="noopener noreferrer" class="hover:underline flex items-center justify-center sm:justify-start gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                                </svg>
+                                0822-9120-3596
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <p class="mt-4 text-center text-lg text-gray-200">Atau kirim laporan via formulir di bawah / masukkan ke <strong class="text-white">Kotak Aduan Fisik</strong>.</p>
+                
+                <!-- Formulir Laporan Digital -->
+                <div class="mt-4">
+                    <label for="laporanDigital" class="block text-sm font-medium text-gray-300 mb-2 text-left">Ketik Laporan Anda (Akan dikirim via WhatsApp):</label>
+                    <textarea id="laporanDigital" rows="3" class="w-full p-2 rounded-lg bg-gray-100 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-red-400" placeholder="Ketikkan kronologi kejadian di sini... Identitas Anda akan dirahasiakan."></textarea>
+                    <!-- Tombol untuk mengirim WA, dengan ikon -->
+                    <button onclick="kirimLaporanWA()" class="mt-2 w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.57 6.57 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.068-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                        </svg>
+                        Kirim Laporan Rahasia via WhatsApp
+                    </button>
+                    <p id="laporanError" class="text-red-400 text-sm mt-2 text-center" style="display: none;">Mohon isi laporan terlebih dahulu.</p>
+                </div>
+            </div>
+
+            <!-- Langkah 3: Penanganan -->
+            <div class="bg-gray-800/60 p-6 rounded-xl shadow-lg border border-gray-700 md:col-span-3">
+                <div class="flex items-center gap-3">
+                    <span class="text-5xl font-black text-yellow-400">3</span>
+                    <h3 class="text-2xl font-bold text-yellow-400">PENANGANAN</h3>
+                </div>
+                <p class="mt-4 text-lg text-gray-200">
+                    Tim PPKSP akan segera memverifikasi laporan Anda dan mengambil tindakan yang diperlukan untuk melindungi korban.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Jaminan Kerahasiaan (Bagian Paling Menonjol) -->
+        <section class="bg-yellow-400 p-6 md:p-8 text-center text-gray-900">
+            <div class="flex justify-center items-center gap-4">
+                <!-- Ikon Gembok (SVG) -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 1.944A1.944 1.944 0 008.056 0H3.944A1.944 1.944 0 002 1.944v16.112A1.944 1.944 0 003.944 20h12.112A1.944 1.944 0 0018 18.056V1.944A1.944 1.944 0 0016.056 0H11.944A1.944 1.944 0 0010 1.944zM8 6a2 2 0 100 4 2 2 0 000-4zm2-4a4 4 0 00-4 4v2h8V6a4 4 0 00-4-4zm-2 10a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" clip-rule="evenodd" />
+                </svg>
+                <h3 class="text-2xl md:text-4xl font-black tracking-wide">IDENTITAS ANDA KAMI JAMIN KERAHASIAANNYA!</h3>
+            </div>
+        </section>
+
+        <!-- Footer / Penutup -->
+        <footer class="p-8 text-center bg-black/20">
+            <p class="text-xl md:text-2xl font-light text-gray-200">
+                BERSAMA KITA CIPTAKAN PKBM "MINASIKON" YANG AMAN DAN NYAMAN.
+            </p>
+            <p class="mt-6 text-lg font-semibold text-yellow-400">
+                TIM PENCEGAHAN DAN PENANGANAN KEKERASAN (TPPK)
+            </p>
+            <p class="text-md font-medium text-white">
+                PKBM "MINASIKON"
+            </p>
+        </footer>
+
+    </main>
+
+    <!-- Script untuk Laporan WA -->
+    <script>
+        function kirimLaporanWA() {
+            const textarea = document.getElementById('laporanDigital');
+            const laporan = textarea.value;
+            const errorP = document.getElementById('laporanError');
+
+            if (laporan.trim() === "") {
+                // Tampilkan pesan error
+                errorP.style.display = 'block';
+                textarea.classList.add('border', 'border-red-500', 'focus:ring-red-500');
+                textarea.focus();
+                return;
+            }
+
+            // Sembunyikan pesan error jika sudah diisi
+            errorP.style.display = 'none';
+            textarea.classList.remove('border', 'border-red-500', 'focus:ring-red-500');
+            
+            // Nomor tujuan (salah satu TPPK, contoh: Elyakin)
+            const noTujuan = "6285245039200"; // Pastikan menggunakan kode negara 62
+            const pesanWA = `*Laporan Rahasia TPPK (PKBM Minasikon):*\n\n${laporan}`;
+            const encodedPesan = encodeURIComponent(pesanWA);
+            const urlWA = `https.wa.me/${noTujuan}?text=${encodedPesan}`;
+            
+            // Buka di tab baru
+            window.open(urlWA, '_blank');
+            
+            // Kosongkan textarea setelah kirim
+            textarea.value = "";
+        }
+    </script>
+
+</body>
+</html>
